@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Keyboard Events</h1>
+        <label>Name</label>
+        <input type="text" v-on:keyup="logName"/>
+        <span>{{name}}</span>
+        <label>Age</label>
+        <input type="text" v-on:keyup="logAge"/>
+        <span>{{age}}</span>
+    </div>
+    <script src="./TWO_WAY_DATA_BINDING_8.js"></script>
+</body>
+</html>
